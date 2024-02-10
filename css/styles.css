@@ -57,6 +57,10 @@ section {
 /* ======= /Common-styles ======= */
 
 /* ======= Page-header-styles ======= */
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-main-flex {
     display: flex;
     padding-top: 24px;
