@@ -1,3 +1,4 @@
+/* ======= Common styles ======= */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -48,9 +49,13 @@ img {
     /* border: 1px solid black; */
 }
 
+/* ======= /Common-styles ======= */
+
+/* ======= Page-header-styles ======= */
 .page-header-main-flex {
     display: flex;
-    /* justify-content: space-between; */
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header .logo {
@@ -70,6 +75,7 @@ img {
 .navigation-menu {
     display: flex;
     gap: 76px;
+    padding-right: 332px;
 }
 
 .navigation-menu-list {
@@ -92,7 +98,6 @@ img {
 
 .contacts {
     font-style: normal;
-    margin-left: 332px;
 }
 
 .contacts-list {
@@ -111,8 +116,13 @@ img {
     color: #404BBF;
 }
 
-.section-header {
+/* ======= /Page-header-styles ======= */
+
+/* ======= Section-hero-styles ======= */
+.section-hero {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -122,19 +132,48 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .order-service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #4D5AE5;
     color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .order-service:hover,
 .order-service:focus {
     background-color: #404BBF;
+}
+
+/* ======= /Section-hero-styles ======= */
+
+/* ======= Our-advantages-styles ======= */
+.our-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-advantages-title {
+    height: 0;
+    overflow: hidden;
+}
+
+.our-advantages-list {
+    display: flex;
+    gap: 24px;
 }
 
 .our-advantages-list-item-title {
@@ -143,6 +182,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .our-advantages-list-item-text {
@@ -150,8 +190,13 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* ======= /Our-advantages-styles ======= */
+
+/* ======= Our-team-styles ======= */
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-title {
@@ -162,10 +207,20 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .our-team-list-item {
     background-color: #ffffff;
+}
+
+.team-foto {
+    margin-bottom: 32px;
 }
 
 .our-team-list-item-title {
@@ -175,6 +230,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .our-team-list-item-text {
@@ -183,6 +239,15 @@ img {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+/* ======= /Our-team-styles ======= */
+
+/* ======= Our-portfolio-styles ======= */
+.our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title {
@@ -193,6 +258,18 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-project-foto {
+    margin-bottom: 32px;
 }
 
 .our-portfolio-list-item-title {
@@ -201,18 +278,27 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .our-portfolio-list-item-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
 
+/* ======= /Our-portfolio-styles ======= */
+
+/* ======= Footer-styles ======= */
 .page-footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .page-footer .logo {
+    display: block;
+    margin-bottom: 16px;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -231,4 +317,7 @@ img {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
+
+/* ======= /Footer-styles ======= */
