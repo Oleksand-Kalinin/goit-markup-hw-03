@@ -2,6 +2,9 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -24,19 +27,30 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-}
-
-ul {
     list-style-type: none;
 }
 
-ul {
-    list-style-type: none;
+button {
+    cursor: pointer;
 }
 
 img {
     display: block;
     max-width: 100%;
+}
+
+.container {
+    max-width: 1128px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+
+.page-header-main-flex {
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 .page-header .logo {
@@ -51,6 +65,16 @@ img {
 
 .page-header .logo span {
     color: #2E2F42;
+}
+
+.navigation-menu {
+    display: flex;
+    gap: 76px;
+}
+
+.navigation-menu-list {
+    display: flex;
+    gap: 40px;
 }
 
 .navigation-menu-list-item-link {
@@ -68,6 +92,12 @@ img {
 
 .contacts {
     font-style: normal;
+    margin-left: 332px;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contact-list-item-link {
@@ -100,7 +130,6 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
 }
 
 .order-service:hover,
