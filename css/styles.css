@@ -94,7 +94,6 @@ section {
 
 .navigation-menu-list-item {
     display: inline-block;
-    padding: 24px 0;
 }
 
 .navigation-menu-list-item-link {
@@ -103,6 +102,7 @@ section {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .navigation-menu-list-item-link:hover,
