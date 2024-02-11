@@ -63,6 +63,7 @@ section {
 
 .page-header-main-flex {
     display: flex;
+    gap: 332px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -84,7 +85,6 @@ section {
 .navigation-menu {
     display: flex;
     gap: 76px;
-    padding-right: 332px;
 }
 
 .navigation-menu-list {
