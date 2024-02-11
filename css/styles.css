@@ -64,8 +64,12 @@ section {
 .page-header .container {
     display: flex;
     gap: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
 }
 
 .page-header .logo {
@@ -76,15 +80,11 @@ section {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .page-header .logo span {
     color: #2E2F42;
-}
-
-.navigation-menu {
-    display: flex;
-    gap: 76px;
 }
 
 .navigation-menu-list {
