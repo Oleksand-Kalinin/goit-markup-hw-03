@@ -92,6 +92,11 @@ section {
     gap: 40px;
 }
 
+.navigation-menu-list-item {
+    display: inline-block;
+    padding: 24px 0;
+}
+
 .navigation-menu-list-item-link {
     color: #2E2F42;
     font-style: normal;
@@ -112,6 +117,10 @@ section {
 .contacts-list {
     display: flex;
     gap: 40px;
+}
+
+.contact-list-item {
+    padding: 24px 0;
 }
 
 .contact-list-item-link {
