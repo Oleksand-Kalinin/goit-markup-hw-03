@@ -61,7 +61,7 @@ section {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.page-header-main-flex {
+.page-header .container {
     display: flex;
     gap: 332px;
     padding-top: 24px;
@@ -141,7 +141,7 @@ section {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
@@ -150,6 +150,8 @@ section {
 
 .order-service {
     display: block;
+    min-width: 169px;
+    height: 56px;
     margin-left: auto;
     margin-right: auto;
     background-color: #4D5AE5;
@@ -158,6 +160,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
+    border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -171,13 +174,26 @@ section {
 
 /* ======= Our-advantages-styles ======= */
 .our-advantages-title {
-    height: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 
 .our-advantages-list {
     display: flex;
     gap: 24px;
+}
+
+.our-advantages-list-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-advantages-list-item-title {
@@ -222,8 +238,8 @@ section {
     border-radius: 0 0 4px 4px;
 }
 
-.team-foto {
-    margin-bottom: 32px;
+.team-desc {
+    padding: 32px 0;
 }
 
 .our-team-list-item-title {
@@ -242,7 +258,6 @@ section {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
 
 /* ======= /Our-team-styles ======= */
@@ -273,7 +288,7 @@ section {
 .project-desc {
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
 }
 
 .our-portfolio-list-item-title {
@@ -300,7 +315,7 @@ section {
 }
 
 .page-footer .logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
